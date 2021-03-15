@@ -7,7 +7,7 @@ end
 # end
 
 def create
-  Post.create(content: params[:contennt])
+  Post.create(content: params[:content])
   redirect_to action: :index
 end
 
